@@ -43,4 +43,8 @@ Resource: Royal Decree 6/2022 Issuing the Personal Data Protection Law (Consolid
 
 ## Misconception in My Track
 
+A common mistake is to treat OAuth 2.0 as the protocol that logs a person in. OAuth 2.0 grants limited authorization to access resources; it does not define a standard identity assertion by itself. OpenID Connect adds authentication to OAuth and provides an ID Token so a client can verify the user. The proof is in the OpenID Connect Core specification, Section 1, “Introduction,” which states that OAuth 2.0 does not define standard methods to provide identity information and that OpenID Connect implements authentication as an extension.
+
 ## Open Question
+
+Which government services need the same identity claims, and how can the authority minimize claims shared with each service while preserving access?
