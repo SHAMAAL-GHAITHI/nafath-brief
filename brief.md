@@ -25,9 +25,21 @@ Resource: Request runtime permissions - https://developer.android.com/training/p
 
 ## Networking
 
+DNS over HTTPS (DoH) sends DNS queries and responses over HTTPS to a configured resolver. TLS protects their confidentiality and integrity in transit, making it harder for a local network or on-path observer to inspect or alter lookups. It does not hide queries from the resolver, make the user anonymous, or encrypt the subsequent connection to a government website; destination IPs and traffic patterns can still reveal activity.
+
+Resource: RFC 8484: DNS Queries over HTTPS (DoH) - https://www.rfc-editor.org/rfc/rfc8484
+
 ## Cybersecurity
 
+Phishing resistance depends on a cryptographic proof bound to the legitimate verifier or channel, so a fake site cannot capture and relay a reusable code. NIST recognizes channel binding and verifier-name binding; WebAuthn/FIDO2 can provide verifier-name binding. SMS codes, authenticator-app OTPs, and manually entered out-of-band codes are not phishing-resistant, even if they add a second factor. Multi-factor status and phishing resistance are separate properties.
+
+Resource: NIST Special Publication 800-63B - https://pages.nist.gov/800-63-4/sp800-63b.html
+
 ## Data
+
+Royal Decree 68/2026 amended the law: Article 3(b) excludes personal-data processing by public authorities carrying out legally assigned functions. The authority should establish whether its login service falls within this exception. Otherwise, processing must respect transparency and dignity, usually requires explicit consent (subject to legal exceptions), protect confidentiality, limit retention, and meet breach, rights, permit and transfer rules. Article 14 gives people a right to object to automated decisions and requires human review.
+
+Resource: Royal Decree 6/2022 Issuing the Personal Data Protection Law (Consolidated) - https://decree.om/2022/l20220006/
 
 ## Misconception in My Track
 
